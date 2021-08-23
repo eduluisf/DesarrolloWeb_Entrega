@@ -1,0 +1,44 @@
+.inf-Footer {
+  margin: 32px 0px 0px 0px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100px;
+  overflow: hidden;
+  z-index: 2;
+  bottom: 0%;
+}
+
+.containerCard {
+  display: grid;
+  width: 50%;
+  justify-content: space-around;
+  margin: 32px 0px 32px 8rem;
+
+  .infContainer {
+    color: black;
+  }
+
+  .netContainer {
+    .list-footer {
+      color: black;
+      display: grid;
+      align-content: center;
+      grid-template-columns: 50% 50%;
+      column-gap: 32px;
+      grid-template-rows: 100px;
+      font-size: 24px;
+    }
+  }
+}
+
+.inf-FooterMan {
+  margin: 16px 0px 32px 28%;
+  width: 70%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100px;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+}

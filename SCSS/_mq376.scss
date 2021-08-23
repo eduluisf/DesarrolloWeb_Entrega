@@ -1,0 +1,292 @@
+@media (max-width: 540px) {
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 8vh;
+    background-color: var(--b2);
+    overflow: hidden;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    .navContainer {
+      width: 100%;
+      .userContainerBuscador {
+        display: none;
+      }
+    }
+
+    .logoContainer {
+      margin: 0px 8px 0 0px;
+    }
+  }
+
+  .buscador {
+    display: none;
+    align-items: center;
+    width: 300px;
+    border-radius: 10px;
+    padding: 4px 0px;
+    margin: 0em;
+  }
+
+  .navigation .navContainer .userContainer .menu_container {
+    width: 70%;
+    height: 100vh;
+    flex-direction: column;
+    padding: 0;
+    background-color: var(--b2);
+    position: fixed;
+    margin: 0px;
+    top: 60px;
+    border-bottom: solid 1px var(--b4);
+    left: 30%;
+    transition: left 0.4s;
+    align-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .navigation .navContainer .userContainer .menu_container .userItem {
+    display: flex;
+    width: 85%;
+    margin: 8px auto;
+    border-radius: 25px;
+    background-color: var(--b2);
+    box-shadow: 0 4px 8px 0 rgba(66, 62, 3, 0.2),
+      0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    align-content: flex-end;
+    align-items: center;
+    height: 6vh;
+  }
+
+  .navigation .navContainer .userContainer .menu_container .userItem a {
+    font-size: 16px;
+  }
+
+  .buscador .searchbtn {
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 36px;
+    width: 36px;
+    background-color: var(--b1);
+    color: white;
+    font-size: 14px;
+    border-radius: 0 10px 10px 0;
+  }
+
+  .hamb-menu {
+    margin: 14px 16px 24px 15vh;
+  }
+
+  .navigation .navContainer .userContainer .menu_visible {
+    left: 100%;
+  }
+
+  .containerCarousel {
+    height: 18vh;
+  }
+  .carousel-item {
+    height: 18vh;
+  }
+
+  .containerinfomain {
+    height: 18vh;
+  }
+
+  .mainadvice {
+    height: 18vh;
+    padding: 0;
+
+    img {
+      border-radius: 6px;
+      margin: 32px;
+    }
+
+    .btn {
+      width: 100%;
+      margin: 0 0px 16px 16px;
+      font-size: 6px;
+    }
+
+    .mainAdvContent {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      align-content: center;
+
+      justify-content: space-around;
+      padding: 16px 8px;
+
+      .textAdviceContainer {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+
+        p {
+          display: none;
+          font-size: 8px;
+          margin: 4px;
+        }
+
+        h3 {
+          margin: 16px;
+          font-size: 16px;
+          span {
+            color: orange;
+          }
+        }
+      }
+    }
+  }
+
+  .containerMain {
+    margin: 8px 10%;
+    padding: 0;
+    width: 10px;
+  }
+
+  .card {
+    border-radius: 10px;
+    height: 32vh;
+    margin: 8 !important;
+    width: 30vh !important;
+
+    img {
+      margin: 0px auto;
+      width: 50%;
+      border-radius: 10%;
+      height: 50%;
+      padding-bottom: 16px;
+    }
+    h5 {
+      font-size: 12px;
+    }
+    p {
+      font-size: 14px;
+    }
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding-top: 16px;
+    }
+  }
+
+  .card:hover {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+
+  .btn-dark {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .containerInfoTextRight {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    padding: 16px 0px;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 8px;
+  }
+
+  .containerInfoTextLeft {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 80%;
+    padding: 16px;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 8px;
+  }
+
+  .btn-text {
+    width: 150%;
+    font-size: 6px;
+    padding: 4px 6px;
+  }
+  .filterFix {
+    display: none;
+  }
+
+  .containerCardsMen {
+    margin: 32px 56px;
+
+    .cardMen {
+      height: 32vh;
+      padding: 16px 0px 0px 0px;
+      width: 90%;
+    }
+  }
+  .gridOffAllow {
+    display: grid;
+    height: 30vh;
+    gap: 16px;
+    margin: 64px 0px 16px 0px;
+    padding: 32px 8px 0px 8px;
+    width: 100%;
+    border-radius: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    z-index: 3;
+
+    .itemGridOffAllow {
+      background-color: var(--b2);
+      width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .itemGridOffAllow:hover {
+      background-color: var(--b2);
+      width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    }
+  }
+
+  .inf-FooterMan,
+  .inf-Footer {
+    margin: 16px 0px 32px 22px;
+    padding: 0;
+    width: 90%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    font-size: 12px;
+  }
+
+  .containerCard {
+    display: grid;
+    width: 50%;
+    justify-content: space-around;
+    margin: 32px;
+  }
+
+  .formContainerRigth {
+    display: none;
+  }
+  .tableContainer {
+    left: 15%;
+  }
+
+  .table_visible {
+    left: 100%;
+  }
+}

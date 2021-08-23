@@ -1,0 +1,54 @@
+.mainadvice {
+  width: 90%;
+  background-color: #ffffff;
+  height: 70vh;
+  margin: 32px auto 16px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  padding: 64px 32px;
+  padding-top: 64px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  animation: fadeInLeft;
+  animation-duration: 2s;
+
+  img {
+    width: 40%;
+    border-radius: 6px;
+    margin: 32px;
+  }
+
+  .btn {
+    width: 40%;
+    margin: 32px;
+  }
+
+  .mainAdvContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+
+    justify-content: space-around;
+    padding: 64px;
+
+    .textAdviceContainer {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+
+      p {
+        margin: 16px 32px;
+      }
+
+      h3 {
+        margin: 16px 32px;
+        font-size: 32px;
+        span {
+          color: orange;
+        }
+      }
+    }
+  }
+}
